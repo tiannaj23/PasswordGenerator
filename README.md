@@ -17,3 +17,4 @@
 
 <h1>Markup</h1>
 
+<img src="develop/images/PasswordGenerator.png" alt="Password Generator Website">
