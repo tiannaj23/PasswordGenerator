@@ -18,3 +18,5 @@
 <h1>Markup</h1>
 
 <p>The following screenshot shows the deployed website and the link will take you to actual live website.</p>
+
+![Password Generator Website Small](https://user-images.githubusercontent.com/118307685/212772103-dd946231-f6eb-422d-a0b7-537d73a7a540.jpeg)
