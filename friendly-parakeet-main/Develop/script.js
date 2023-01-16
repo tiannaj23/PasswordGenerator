@@ -1,19 +1,19 @@
 // Assignment code here
-var upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' .split("") // "ABC" => ["A", "B", "C"]
-var lowerCase = 'abcdefghijklmnopqrstuvwxyz' .split("")
-var numbers = '1234567890' .split("")
-var symbols = '!@#$%^&*()' .split("")
+var upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split("") // "ABC" => ["A", "B", "C"]
+var lowerCase = 'abcdefghijklmnopqrstuvwxyz'.split("")
+var numbers = '1234567890'.split("")
+var symbols = '!@#$%^&*()'.split("")
 
 // Get references to the #generate element
 function generatePassword() {
 var characters = []
 var answer = ""
-var passLength = prompt ('How long do you want your password to be? It needs to be between 8 - 128 characters.')
+var passLength = prompt('How long do you want your password to be? It needs to be between 8 - 128 characters.')
 if(passLength < 8 || passLength > 128) {
   alert("You must have a password between 8 - 128 characters, Please retry")
   generatePassword()
 } else {
-  if(confirm("Do you want uppercase characters in ygti addour password")) {
+  if(confirm("Do you want uppercase characters in your password")) {
     characters = characters.concat(upperCase)
   }
   if(confirm("Do you want lowercase characters in your password?")) {
@@ -23,9 +23,9 @@ if(passLength < 8 || passLength > 128) {
     characters = characters.concat(numbers)
   }
   if(confirm("Do you want symbols in your password?")) {
-    characters = characters.concar(symbols)
+    characters = characters.concat(symbols)
   }
-  if(characters.length === 0) {
+  if(characters.length == 0) {
     alert("You have to have at least one character type, to be able to create a password, Please retry")
     generatePassword()
   } else {
@@ -36,6 +36,8 @@ if(passLength < 8 || passLength > 128) {
     return answer
   }
 }
+}
+
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
