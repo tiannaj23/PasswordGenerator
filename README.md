@@ -19,4 +19,4 @@
 
 <p>The following screenshot shows the deployed website and the link will take you to actual live website.</p>
 
-![Password Generator Website Small](https://user-images.githubusercontent.com/118307685/212772103-dd946231-f6eb-422d-a0b7-537d73a7a540.jpeg)
+![Password Generator Website Small Large](https://user-images.githubusercontent.com/118307685/212772227-33bd5466-cf22-4d7d-9254-f6db13c98d60.jpeg)
