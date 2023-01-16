@@ -5,7 +5,8 @@ var numbers = '1234567890' .split("")
 var symbols = '!@#$%^&*()' .split("")
 
 // Get references to the #generate element
-function characters = []
+function generatePassword() {
+var characters = []
 var answer = ""
 var passLength = prompt ('How long do you want your password to be? It needs to be between 8 - 128 characters.')
 if(passLength < 8 || passLength > 128) {
@@ -29,8 +30,10 @@ if(passLength < 8 || passLength > 128) {
     generatePassword()
   } else {
     for(let i = 0; i < passLength; i++) {
-      var random = Math.floor(Math.random())
+      var random = Math.floor(Math.random() * characters.length)
+      answer += characters[random]
     }
+    return answer
   }
 }
 var generateBtn = document.querySelector("#generate");
