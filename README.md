@@ -10,3 +10,10 @@
 <h1>Usage</h1>
 
 <p>To navigate the Password Generate website, you can start by clicking on the "Generate Password" button. Once that is clicked, a promp will come up that says "How long do you want your password to be? It needs to be between 8 - 128 characters." Continute to follow the promps that follow the first one. When all prompts are successfully selected, the password will be generated!</p>
+
+<h1>Credits</h1>
+
+<p>N/A</p>
+
+<h1>Markup</h1>
+
