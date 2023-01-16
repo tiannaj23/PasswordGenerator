@@ -25,7 +25,7 @@ if(passLength < 8 || passLength > 128) {
   if(confirm("Do you want symbols in your password?")) {
     characters = characters.concat(symbols)
   }
-  if(characters.length == 0) {
+  if(characters.length === 0) {
     alert("You have to have at least one character type, to be able to create a password, Please retry")
     generatePassword()
   } else {
