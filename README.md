@@ -18,5 +18,3 @@
 <h1>Markup</h1>
 
 <p>The following screenshot shows the deployed website and the link will take you to actual live website.</p>
-
-Password Generator Website.png
